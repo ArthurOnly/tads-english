@@ -1,0 +1,45 @@
+header{
+    padding: var(--xxlg-space);
+    text-align: center;
+}
+
+.login{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    padding: var(--xlg-space);
+    display: flex;
+    flex-direction: column;
+    gap: var(--lg-space);
+    margin-top: -16px;
+    background-color: #fff;
+    border-radius: var(--lg-space);
+}
+
+.buttons-container{
+    display: flex;
+    gap: var(--lg-space);
+}
+
+.btn-facebook{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btn-google{
+    background-color: #DB4437;
+    color: #fff;
+}
+
+.buttons-container button{
+    flex-grow: 1;
+}
+
+.bottom-auth h1{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    margin-bottom: var(--lg-space);
+    text-align: center;
+}
