@@ -202,7 +202,7 @@
     <script>
       function goToCheckout() {
         event.preventDefault();
-        window.location.href = "http://localhost:8000/checkout";
+        window.location.href = "http://<?=$_SERVER['HTTP_HOST']?>/checkout";
       }
     </script>
     <script>

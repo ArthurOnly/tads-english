@@ -70,7 +70,7 @@
             const formProps = Object.fromEntries(formData);
             sessionStorage.setItem('username', formProps.username)
             event.preventDefault()
-            window.location.href = `http://localhost:8000/store`;
+            window.location.href = `http://<?=$_SERVER['HTTP_HOST']?>/store`;
         }
     </script>
 </body>
